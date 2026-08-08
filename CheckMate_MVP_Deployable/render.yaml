@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: checkmate-mvp
-    runtime: static
-    buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
